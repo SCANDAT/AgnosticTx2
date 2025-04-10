@@ -1,0 +1,42 @@
+NOTE: The query requires remerging summary statistics back with the original data.            
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           0.60 seconds                                                        
+      cpu time            1.12 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.SAMPLEDATA created, with 56 rows and 46 columns.                             
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           0.34 seconds                                                        
+      cpu time            0.34 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+WARNING: The variable birthdate in the DROP, KEEP, or RENAME list has never been referenced.  
+WARNING: The variable deathdate in the DROP, KEEP, or RENAME list has never been referenced.  
+WARNING: The variable migdate in the DROP, KEEP, or RENAME list has never been referenced.    
+WARNING: The variable sex in the DROP, KEEP, or RENAME list has never been referenced.        
+NOTE: There were 56 observations read from the data set WORK.SAMPLEDATA.                      
+NOTE: The data set AGTXSAMP.SAMPLEDATA has 56 observations and 40 variables.                  
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.08 seconds                                                        
+      cpu time            0.00 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2629393 observations read from the data set AGTX.FINALDATA24.                
+NOTE: 2100311 observations with duplicate key values were deleted.                            
+NOTE: The data set WORK.TIMINGTEMP has 529082 observations and 46 variables.                  
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.99 seconds                                                        
+      cpu time            1.79 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 529082 observations read from the data set WORK.TIMINGTEMP.                  
+NOTE: The data set AGTXSAMP.TIMINGDATA has 529082 observations and 2 variables.               
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.24 seconds                                                        
+      cpu time            0.09 seconds                                                        
+                                                                                              
+                                                                                              

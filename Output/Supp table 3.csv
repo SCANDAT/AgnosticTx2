@@ -1,0 +1,551 @@
+Label,Predictor,Number of observations,Crude p-value,FDR adjusted p-value
+Hemoglobin,Storage time,92701,2.7459851E-94,1.5102918E-91
+Hemoglobin,Donor Hb,91992,1.5390326E-83,4.2323396E-81
+Hemoglobin,Donor sex,92819,8.1695525E-48,1.4977513E-45
+Erythrocyte count,Storage time,36897,2.8728974E-42,3.9502340E-40
+Mean corpuscular volume,Age of Donor,37190,3.4340616E-30,3.7774677E-28
+Erythrocyte count,Donor Hb,36553,7.7715892E-28,7.1239568E-26
+Mean corpuscular volume,Storage time,37138,4.1974789E-26,3.2980191E-24
+Mean corpuscular hemoglobin,Age of Donor,37282,5.7242463E-17,3.9354193E-15
+Erythrocyte count,Donor sex,36951,1.3900133E-15,8.4945256E-14
+Mean corpuscular hemoglobin concentrati,Donor Hb,24107,1.0954820E-12,6.0251510E-11
+Mean corpuscular volume,Donor sex,37191,9.2697491E-11,4.6348745E-09
+Platelet count,Storage time,54770,1.4278541E-08,6.5443315E-07
+Hemoglobin,Donors prior number of donations,92876,1.2115506E-07,5.1257909E-06
+Mean corpuscular hemoglobin,Storage time,37230,1.6090887E-07,6.3214197E-06
+Mean corpuscular volume,Donor Hb,36790,2.4330544E-07,8.9211995E-06
+Mean corpuscular hemoglobin,Donor Hb,36879,3.0907127E-07,1.0624325E-05
+Bilirubin,Storage time,22465,4.2664089E-05,1.3803088E-03
+CO-Hb,Storage time,14186,6.8738188E-05,2.1003335E-03
+aPTT,Storage time,22544,7.5282246E-05,2.1792229E-03
+Mean corpuscular hemoglobin concentrati,Donor sex,24180,1.0897376E-04,2.9967783E-03
+Mean corpuscular volume,Donor parity,37191,1.1688942E-04,3.0613895E-03
+Hemoglobin,Age of Donor,92814,1.2966855E-04,3.2417137E-03
+Mean corpuscular volume,Donor born outside of Sweden,37211,2.0115710E-04,4.8102786E-03
+Hemoglobin,Time since donors previous donation,92876,2.3271853E-04,5.3331329E-03
+Bilirubin,Donor Hb,22304,3.3006284E-04,7.2613825E-03
+Mean corpuscular hemoglobin,Donor born outside of Sweden,37303,3.9247539E-04,8.3023640E-03
+Hemoglobin,Donor parity,92819,4.3953809E-04,8.9535536E-03
+Platelet count,Donor Hb,54281,4.8026380E-04,9.4337533E-03
+Erythrocyte count,Time since donors previous donation,36971,6.4912360E-04,1.2310965E-02
+Creatinine,Storage time,50536,2.1560198E-03,3.9527030E-02
+Erythrocyte count,Donors prior number of donations,36971,2.4382695E-03,4.3259621E-02
+Albumin,Storage time,23187,2.6181344E-03,4.4999186E-02
+Chloride,Storage time,21074,2.8135412E-03,4.6892354E-02
+PaCO2,Weekday of donation,16491,3.6749381E-03,5.9447528E-02
+Bilirubin,Donor sex,22494,3.9244271E-03,6.1669569E-02
+Calcium,Donor born outside of Sweden,12820,4.3245462E-03,6.4285864E-02
+Chloride,Donor Hb,20879,4.3246854E-03,6.4285864E-02
+Platelet count,Weekday of donation,54859,5.3445407E-03,7.7355195E-02
+Potassium,Donor parity,47066,5.6796240E-03,8.0097262E-02
+Conjugated bilirubin,Donors prior number of donations,4875,6.6879849E-03,9.1959792E-02
+Mean corpuscular hemoglobin concentrati,Donors prior number of donations,24193,7.6429860E-03,1.0252786E-01
+Mean corpuscular hemoglobin concentrati,Time since donors previous donation,24193,8.0559096E-03,1.0549405E-01
+Mean corpuscular volume,Time since donors previous donation,37211,1.0407369E-02,1.3311752E-01
+Leukocyte count,Storage time,56845,1.0865768E-02,1.3582210E-01
+pH,Donor born outside of Sweden,20456,1.1918345E-02,1.4487711E-01
+Troponin T,Storage time,4395,1.2204018E-02,1.4487711E-01
+INR,Time of donation,28315,1.2380408E-02,1.4487711E-01
+Calcium,Donor sex,12815,1.3126233E-02,1.5040475E-01
+Reticulocyte count,Donor Hb,507,1.3462997E-02,1.5111527E-01
+Myelocyte count,Donor sex,361,1.5236329E-02,1.6759961E-01
+Glutamyl transferase,Time since donors previous donation,7792,1.5838268E-02,1.7080485E-01
+PaCO2,Donor parity,16490,1.7088909E-02,1.8074808E-01
+Mean corpuscular hemoglobin,Donor parity,37283,1.7881364E-02,1.8556132E-01
+Potassium,Storage time,47006,2.0449894E-02,2.0235446E-01
+Chloride,Donor sex,21093,2.0720896E-02,2.0235446E-01
+Chloride,Donor born outside of Sweden,21104,2.0895536E-02,2.0235446E-01
+Potassium,Age of Donor,47065,2.0971280E-02,2.0235446E-01
+HbA1c,Donor Hb,192,2.1771746E-02,2.0376247E-01
+INR,Weekday of donation,28428,2.1858155E-02,2.0376247E-01
+Platelet count,Donors prior number of donations,54873,2.6963042E-02,2.4489129E-01
+Haptoglobin,Donor born outside of Sweden,383,2.7587943E-02,2.4489129E-01
+Iron,Donor Hb,1411,2.7605927E-02,2.4489129E-01
+Osmolality,Donor parity,6503,3.2360897E-02,2.8251577E-01
+Chloride,Donor parity,21093,3.4043891E-02,2.9256469E-01
+Potassium,Donors prior number of donations,47090,3.4785447E-02,2.9433840E-01
+Mean corpuscular volume,Donors prior number of donations,37211,3.5377753E-02,2.9481461E-01
+Leukocyte count,Time of donation,56754,3.6138313E-02,2.9665779E-01
+Sedimentation rate,Age of Donor,89,3.8685897E-02,3.1290063E-01
+PaCO2,Storage time,16473,3.9832830E-02,3.1615805E-01
+PaCO2,Age of Donor,16490,4.0357639E-02,3.1615805E-01
+Conjugated bilirubin,Age of Donor,4875,4.0813130E-02,3.1615805E-01
+Neutrophile count,Weekday of donation,11129,4.4446775E-02,3.3952398E-01
+Mean corpuscular hemoglobin,Time since donors previous donation,37303,4.6847007E-02,3.4405415E-01
+CO-Hb,Donor Hb,14027,4.7153764E-02,3.4405415E-01
+Calcium,Donors prior number of donations,12820,4.7509855E-02,3.4405415E-01
+Glucose,Age of Donor,44700,4.7542028E-02,3.4405415E-01
+INR,Donor sex,28417,4.9032361E-02,3.4494175E-01
+Lactate dehydrogenase,Time since donors previous donation,6793,4.9748529E-02,3.4494175E-01
+AST,Donor Hb,15275,5.0251180E-02,3.4494175E-01
+Lactate,Donor born outside of Sweden,18924,5.0562853E-02,3.4494175E-01
+aPTT,Donor Hb,22407,5.0800512E-02,3.4494175E-01
+Hemoglobin,Weekday of donation,92849,5.5334819E-02,3.7114817E-01
+PaCO2,Donor sex,16490,5.7843413E-02,3.7911518E-01
+Leukocyte count,Donors prior number of donations,56967,5.7901228E-02,3.7911518E-01
+Standard bicarbonate,Donor sex,20338,5.9379666E-02,3.8270505E-01
+Leukocyte count,Donor born outside of Sweden,56967,5.9841154E-02,3.8270505E-01
+Mean corpuscular hemoglobin,Donors prior number of donations,37303,6.1543740E-02,3.8581379E-01
+Sodium,Time of donation,46407,6.1892393E-02,3.8581379E-01
+Conjugated bilirubin,Time of donation,4857,6.2431687E-02,3.8581379E-01
+ALT,Donor Hb,16860,6.5747401E-02,4.0178967E-01
+Methemoglobin,Time since donors previous donation,15622,6.7751991E-02,4.0949005E-01
+Potassium,Time of donation,46944,7.3398226E-02,4.3879374E-01
+Sedimentation rate,Donor parity,89,7.6596992E-02,4.5299296E-01
+Triglycerides,Donor sex,2565,8.0314624E-02,4.6992599E-01
+Platelet count,Donor parity,54843,8.5335904E-02,4.9404997E-01
+eGFR,Donor sex,6451,9.3476208E-02,5.2196523E-01
+CO-Hb,Donor parity,14194,9.4143467E-02,5.2196523E-01
+Leukocyte count,Donor Hb,56374,9.4893803E-02,5.2196523E-01
+Base Excess,Donor parity,10231,9.6111828E-02,5.2196523E-01
+Carbon Dioxide,Donor Hb,1081,9.6443905E-02,5.2196523E-01
+Calcium,Donor Hb,12696,9.6897803E-02,5.2196523E-01
+Conjugated bilirubin,Donor Hb,4839,9.7804973E-02,5.2196523E-01
+Osmolality,Storage time,6500,9.8681749E-02,5.2196523E-01
+Conjugated bilirubin,Weekday of donation,4873,9.8831660E-02,5.2196523E-01
+Mean corpuscular hemoglobin concentrati,Storage time,24146,1.0135811E-01,5.2196523E-01
+Ferritin,Donor parity,2576,1.0150409E-01,5.2196523E-01
+Lactate,Donor parity,18914,1.0154596E-01,5.2196523E-01
+Glutamyl transferase,Storage time,7776,1.0266998E-01,5.2285640E-01
+ALT,Time of donation,16921,1.0430312E-01,5.2302858E-01
+Triglycerides,Donors prior number of donations,2566,1.0460572E-01,5.2302858E-01
+Bilirubin,Time of donation,22419,1.0617041E-01,5.2529223E-01
+Myelocyte count,Time of donation,360,1.0696860E-01,5.2529223E-01
+Lymphocyte count,Time of donation,1971,1.1041397E-01,5.3739621E-01
+Free Calcium,Time since donors previous donation,20420,1.1138758E-01,5.3739621E-01
+ALP,Donor parity,6721,1.1459558E-01,5.4137485E-01
+Fibrinogen,Time of donation,13868,1.1546757E-01,5.4137485E-01
+Base Excess,Storage time,10223,1.1614122E-01,5.4137485E-01
+PaCO2,Donor Hb,16325,1.1614951E-01,5.4137485E-01
+eGFR,Time of donation,6452,1.2408104E-01,5.7348380E-01
+Glucose,Storage time,44634,1.2541722E-01,5.7482890E-01
+Carbon Dioxide,Storage time,1085,1.2932438E-01,5.8783810E-01
+Neutrophile count,Storage time,11112,1.3116562E-01,5.9132040E-01
+Troponin I,Storage time,592,1.3316888E-01,5.9270079E-01
+Osmolality,Age of Donor,6503,1.3365526E-01,5.9270079E-01
+Methemoglobin,Donor Hb,15420,1.3470472E-01,5.9270079E-01
+Basophiles,Weekday of donation,1987,1.3603462E-01,5.9380191E-01
+Fibrinogen,Donors prior number of donations,13926,1.3729797E-01,5.9459751E-01
+Ferritin,Weekday of donation,2577,1.3895219E-01,5.9706020E-01
+HbA1c,Time of donation,193,1.4179689E-01,6.0456037E-01
+INR,Donor Hb,28206,1.4610205E-01,6.1812407E-01
+Myelocyte count,Weekday of donation,361,1.4919125E-01,6.2637548E-01
+Standard bicarbonate,Time of donation,20301,1.5154994E-01,6.3015836E-01
+Chloride,Age of Donor,21092,1.5238375E-01,6.3015836E-01
+Bilirubin,Time since donors previous donation,22504,1.5768178E-01,6.4506877E-01
+Mean corpuscular hemoglobin,Weekday of donation,37296,1.5833506E-01,6.4506877E-01
+Albumin,Donor born outside of Sweden,23228,1.6254569E-01,6.5735391E-01
+Reticulocyte count,Weekday of donation,517,1.6534834E-01,6.6380722E-01
+Troponin I,Weekday of donation,593,1.6722818E-01,6.6418441E-01
+Chloride,Donors prior number of donations,21104,1.6823181E-01,6.6418441E-01
+Lymphocyte count,Time since donors previous donation,1974,1.7014882E-01,6.6418441E-01
+Reticulocyte count,Time of donation,516,1.7143952E-01,6.6418441E-01
+Monocyte count,Donor sex,1980,1.7148034E-01,6.6418441E-01
+Conjugated bilirubin,Storage time,4867,1.7399507E-01,6.6533622E-01
+Troponin I,Donor born outside of Sweden,593,1.7419712E-01,6.6533622E-01
+Potassium,Donor sex,47066,1.7554609E-01,6.6586448E-01
+Lactate,Age of Donor,18913,1.7797994E-01,6.6860577E-01
+Triglycerides,Time since donors previous donation,2566,1.7889253E-01,6.6860577E-01
+Iron,Donor born outside of Sweden,1418,1.7991573E-01,6.6860577E-01
+Neutrophile count,Time of donation,11101,1.8802323E-01,6.7807347E-01
+Eosinophile count,Time of donation,1968,1.8809505E-01,6.7807347E-01
+Fibrinogen,Donor Hb,13806,1.8829049E-01,6.7807347E-01
+Creatinine,Donors prior number of donations,50642,1.8940214E-01,6.7807347E-01
+ALT,Donor sex,16990,1.9004387E-01,6.7807347E-01
+Free Calcium,Donors prior number of donations,20420,1.9089214E-01,6.7807347E-01
+Osmolality,Time of donation,6488,1.9109343E-01,6.7807347E-01
+CRP,Donor born outside of Sweden,47982,1.9484615E-01,6.8695757E-01
+Lactate dehydrogenase,Donor parity,6792,1.9669937E-01,6.8907422E-01
+NT-ProBNP,Donor Hb,821,1.9894460E-01,6.9252866E-01
+Basophiles,Donor parity,1987,2.0387761E-01,6.9654178E-01
+pH,Storage time,20428,2.0586118E-01,6.9654178E-01
+Sedimentation rate,Donor born outside of Sweden,89,2.0702817E-01,6.9654178E-01
+Metamyelocyte count,Donor Hb,380,2.0815855E-01,6.9654178E-01
+Haptoglobin,Time of donation,382,2.0816570E-01,6.9654178E-01
+Carbon Dioxide,Age of Donor,1086,2.0841678E-01,6.9654178E-01
+Creatinine,Time since donors previous donation,50642,2.1002762E-01,6.9654178E-01
+Erythrocyte count,Weekday of donation,36964,2.1022897E-01,6.9654178E-01
+CO-Hb,Age of Donor,14193,2.1175796E-01,6.9740644E-01
+Creatinine,Donor sex,50619,2.1695900E-01,7.1028245E-01
+Bilirubin,Donors prior number of donations,22504,2.1870356E-01,7.1175715E-01
+Lactate dehydrogenase,Donor born outside of Sweden,6793,2.2244813E-01,7.1317858E-01
+ALP,Storage time,6712,2.2271667E-01,7.1317858E-01
+AST,Donor sex,15401,2.2355613E-01,7.1317858E-01
+aPTT,Weekday of donation,22584,2.2536079E-01,7.1317858E-01
+Haptoglobin,Time since donors previous donation,383,2.2772464E-01,7.1317858E-01
+Reticulocyte count,Donor born outside of Sweden,517,2.2940889E-01,7.1317858E-01
+Methemoglobin,Donor born outside of Sweden,15622,2.3053085E-01,7.1317858E-01
+aPTT,Time since donors previous donation,22591,2.3061431E-01,7.1317858E-01
+AST,Donor parity,15401,2.3447935E-01,7.1317858E-01
+AST,Donor born outside of Sweden,15408,2.3509508E-01,7.1317858E-01
+Reticulocyte count,Age of Donor,517,2.3563151E-01,7.1317858E-01
+Glucose,Time since donors previous donation,44724,2.3570901E-01,7.1317858E-01
+Neutrophile count,Donor parity,11129,2.3657954E-01,7.1317858E-01
+Glucose,Donor parity,44701,2.3964274E-01,7.1317858E-01
+Glucose,Weekday of donation,44708,2.4041544E-01,7.1317858E-01
+PaO2,Storage time,16580,2.4172494E-01,7.1317858E-01
+Lactate,Donor sex,18914,2.4239518E-01,7.1317858E-01
+AST,Age of Donor,15401,2.4369768E-01,7.1317858E-01
+Monocyte count,Age of Donor,1980,2.4428107E-01,7.1317858E-01
+Metamyelocyte count,Storage time,383,2.4507409E-01,7.1317858E-01
+Eosinophile count,Time since donors previous donation,1971,2.4809449E-01,7.1535374E-01
+Leukocyte count,Weekday of donation,56954,2.4859139E-01,7.1535374E-01
+Standard bicarbonate,Donor born outside of Sweden,20347,2.5153220E-01,7.1535374E-01
+Metamyelocyte count,Donor parity,384,2.5240677E-01,7.1535374E-01
+Creatinine,Donor born outside of Sweden,50642,2.5320635E-01,7.1535374E-01
+AST,Weekday of donation,15404,2.5432885E-01,7.1535374E-01
+Myelocyte count,Donors prior number of donations,361,2.5492606E-01,7.1535374E-01
+ALP,Weekday of donation,6720,2.5780326E-01,7.1975531E-01
+Lactate dehydrogenase,Donor Hb,6736,2.6086782E-01,7.2194149E-01
+Basophiles,Time of donation,1984,2.6139295E-01,7.2194149E-01
+Leukocyte count,Donor sex,56935,2.6293431E-01,7.2194149E-01
+Glutamyl transferase,Time of donation,7761,2.6460133E-01,7.2194149E-01
+Basophiles,Donors prior number of donations,1987,2.6514942E-01,7.2194149E-01
+aPTT,Donor sex,22575,2.6971678E-01,7.2955774E-01
+Transferrin,Donor born outside of Sweden,58,2.7096686E-01,7.2955774E-01
+AST,Time of donation,15340,2.7265813E-01,7.2955774E-01
+PaO2,Time since donors previous donation,16602,2.7325253E-01,7.2955774E-01
+pH,Age of Donor,20445,2.7767672E-01,7.3041457E-01
+Base Excess,Time of donation,10216,2.8097778E-01,7.3041457E-01
+Neutrophile count,Donors prior number of donations,11134,2.8174558E-01,7.3041457E-01
+CRP,Time of donation,47796,2.8336575E-01,7.3041457E-01
+Erythrocyte count,Donor born outside of Sweden,36971,2.8507201E-01,7.3041457E-01
+Troponin I,Donor sex,593,2.8631567E-01,7.3041457E-01
+pH,Time of donation,20409,2.8735642E-01,7.3041457E-01
+Sodium,Donors prior number of donations,46556,2.8817682E-01,7.3041457E-01
+Eosinophile count,Donor parity,1971,2.8839782E-01,7.3041457E-01
+HbA1c,Age of Donor,193,2.8989459E-01,7.3041457E-01
+Carbon Dioxide,Donors prior number of donations,1087,2.9116361E-01,7.3041457E-01
+Mean corpuscular volume,Time of donation,37074,2.9200420E-01,7.3041457E-01
+AST,Storage time,15377,2.9336500E-01,7.3041457E-01
+Haptoglobin,Donor parity,383,2.9420848E-01,7.3041457E-01
+PaO2,Donor Hb,16428,2.9766849E-01,7.3041457E-01
+INR,Donor born outside of Sweden,28438,2.9848036E-01,7.3041457E-01
+Glutamyl transferase,Donor born outside of Sweden,7792,2.9905456E-01,7.3041457E-01
+Triglycerides,Donor born outside of Sweden,2566,3.0185514E-01,7.3041457E-01
+Albumin,Donor parity,23216,3.0357132E-01,7.3041457E-01
+ALP,Age of Donor,6721,3.0415320E-01,7.3041457E-01
+Standard bicarbonate,Age of Donor,20337,3.0423042E-01,7.3041457E-01
+pH,Donor sex,20446,3.0651613E-01,7.3041457E-01
+CRP,Age of Donor,47956,3.0782786E-01,7.3041457E-01
+Monocyte count,Weekday of donation,1980,3.0803433E-01,7.3041457E-01
+Lymphocyte count,Weekday of donation,1974,3.0998017E-01,7.3041457E-01
+Lymphocyte count,Donors prior number of donations,1974,3.1088393E-01,7.3041457E-01
+ALT,Donor parity,16990,3.1278830E-01,7.3041457E-01
+Lactate dehydrogenase,Donors prior number of donations,6793,3.1367860E-01,7.3041457E-01
+ALP,Donor born outside of Sweden,6723,3.1493309E-01,7.3041457E-01
+ALT,Donor born outside of Sweden,16997,3.1510888E-01,7.3041457E-01
+PaO2,Donor parity,16594,3.1542134E-01,7.3041457E-01
+pH,Donors prior number of donations,20456,3.2100709E-01,7.3041457E-01
+Eosinophile count,Weekday of donation,1971,3.2188680E-01,7.3041457E-01
+Basophiles,Age of Donor,1987,3.2249619E-01,7.3041457E-01
+Lymphocyte count,Donor parity,1974,3.2307039E-01,7.3041457E-01
+CRP,Time since donors previous donation,47982,3.2336416E-01,7.3041457E-01
+Lymphocyte count,Donor Hb,1953,3.2386185E-01,7.3041457E-01
+Osmolality,Donor sex,6503,3.2441002E-01,7.3041457E-01
+Basophiles,Donor born outside of Sweden,1987,3.2536649E-01,7.3041457E-01
+Conjugated bilirubin,Time since donors previous donation,4875,3.2784973E-01,7.3163495E-01
+Base Excess,Weekday of donation,10234,3.2857061E-01,7.3163495E-01
+Albumin,Donors prior number of donations,23228,3.3193620E-01,7.3614882E-01
+Triglycerides,Donor parity,2565,3.3349187E-01,7.3662863E-01
+Calcium,Age of Donor,12815,3.3868322E-01,7.4510309E-01
+Neutrophile count,Age of Donor,11129,3.4278071E-01,7.4557006E-01
+Standard bicarbonate,Weekday of donation,20342,3.4326572E-01,7.4557006E-01
+pH,Weekday of donation,20451,3.4397726E-01,7.4557006E-01
+Platelet count,Time since donors previous donation,54873,3.4431781E-01,7.4557006E-01
+INR,Donors prior number of donations,28438,3.4948884E-01,7.5379946E-01
+Myelocyte count,Storage time,360,3.5259885E-01,7.5753658E-01
+INR,Age of Donor,28417,3.5543248E-01,7.5832075E-01
+PaO2,Donor sex,16594,3.5572137E-01,7.5832075E-01
+Carbon Dioxide,Donor sex,1086,3.5710214E-01,7.5832501E-01
+Standard bicarbonate,Donor Hb,20131,3.5926241E-01,7.5997818E-01
+Transferrin,Time of donation,58,3.6333881E-01,7.6112968E-01
+Platelet count,Donor sex,54843,3.6384521E-01,7.6112968E-01
+Bilirubin,Donor parity,22494,3.6395837E-01,7.6112968E-01
+Methemoglobin,Time of donation,15580,3.6638689E-01,7.6288085E-01
+NT-ProBNP,Storage time,824,3.6756987E-01,7.6288085E-01
+Sedimentation rate,Time since donors previous donation,89,3.6942486E-01,7.6384840E-01
+Metamyelocyte count,Age of Donor,384,3.7295997E-01,7.6642804E-01
+Myelocyte count,Donor born outside of Sweden,361,3.7345948E-01,7.6642804E-01
+NT-ProBNP,Time of donation,821,3.7685858E-01,7.6880106E-01
+Lactate,Storage time,18899,3.8015428E-01,7.6880106E-01
+Haptoglobin,Donor sex,383,3.8063656E-01,7.6880106E-01
+ALP,Time since donors previous donation,6723,3.8272336E-01,7.6880106E-01
+Standard bicarbonate,Donor parity,20338,3.8307311E-01,7.6880106E-01
+Free Calcium,Time of donation,20373,3.8345209E-01,7.6880106E-01
+eGFR,Donor born outside of Sweden,6455,3.8566734E-01,7.6880106E-01
+Lactate dehydrogenase,Storage time,6777,3.8620191E-01,7.6880106E-01
+PaO2,Weekday of donation,16597,3.8768490E-01,7.6880106E-01
+CRP,Weekday of donation,47969,3.8859399E-01,7.6880106E-01
+HbA1c,Donor parity,193,3.9052209E-01,7.6984640E-01
+Hemoglobin,Time of donation,92554,3.9374189E-01,7.7342156E-01
+Albumin,Time of donation,23123,3.9540951E-01,7.7393321E-01
+CO-Hb,Donor born outside of Sweden,14200,3.9831007E-01,7.7684589E-01
+Transferrin,Age of Donor,58,4.0078276E-01,7.7795450E-01
+eGFR,Storage time,6440,4.0383629E-01,7.7795450E-01
+Sedimentation rate,Weekday of donation,89,4.0539768E-01,7.7795450E-01
+CO-Hb,Donor sex,14194,4.0559390E-01,7.7795450E-01
+Base Excess,Donor Hb,10127,4.0709781E-01,7.7795450E-01
+Basophiles,Time since donors previous donation,1987,4.0753164E-01,7.7795450E-01
+CO-Hb,Time since donors previous donation,14200,4.1069500E-01,7.7795450E-01
+Lymphocyte count,Donor sex,1974,4.1152968E-01,7.7795450E-01
+Troponin I,Age of Donor,593,4.1236060E-01,7.7795450E-01
+Metamyelocyte count,Donors prior number of donations,384,4.1302311E-01,7.7795450E-01
+PaO2,Donors prior number of donations,16602,4.1447703E-01,7.7802855E-01
+Hemoglobin,Donor born outside of Sweden,92876,4.2098927E-01,7.8615322E-01
+Fibrinogen,Donor parity,13917,4.2292422E-01,7.8615322E-01
+Standard bicarbonate,Time since donors previous donation,20347,4.2309337E-01,7.8615322E-01
+Haptoglobin,Storage time,381,4.2788635E-01,7.9238213E-01
+Ferritin,Donor born outside of Sweden,2577,4.3029254E-01,7.9416408E-01
+HbA1c,Weekday of donation,193,4.3746337E-01,7.9818102E-01
+aPTT,Time of donation,22500,4.3760169E-01,7.9818102E-01
+AST,Donors prior number of donations,15408,4.4223639E-01,7.9818102E-01
+Methemoglobin,Donor sex,15615,4.4279653E-01,7.9818102E-01
+Carbon Dioxide,Weekday of donation,1087,4.4317604E-01,7.9818102E-01
+Mean corpuscular hemoglobin concentrati,Donor parity,24180,4.4572793E-01,7.9818102E-01
+Glutamyl transferase,Donor Hb,7729,4.4840912E-01,7.9818102E-01
+Sedimentation rate,Donor Hb,87,4.4845911E-01,7.9818102E-01
+Platelet count,Age of Donor,54842,4.4895031E-01,7.9818102E-01
+Carbon Dioxide,Donor born outside of Sweden,1087,4.4956418E-01,7.9818102E-01
+Metamyelocyte count,Time of donation,383,4.4974260E-01,7.9818102E-01
+eGFR,Donors prior number of donations,6455,4.4988385E-01,7.9818102E-01
+Troponin I,Time since donors previous donation,593,4.5352528E-01,8.0205436E-01
+Ferritin,Donor Hb,2566,4.6282178E-01,8.1348820E-01
+pH,Donor Hb,20233,4.6294874E-01,8.1348820E-01
+Erythrocyte count,Time of donation,36835,4.6675870E-01,8.1567330E-01
+Lymphocyte count,Donor born outside of Sweden,1974,4.6841514E-01,8.1567330E-01
+Monocyte count,Donors prior number of donations,1980,4.6864139E-01,8.1567330E-01
+Reticulocyte count,Donors prior number of donations,517,4.7542595E-01,8.1665250E-01
+Triglycerides,Time of donation,2557,4.7884689E-01,8.1665250E-01
+Ferritin,Time since donors previous donation,2577,4.7907964E-01,8.1665250E-01
+Mean corpuscular hemoglobin,Time of donation,37165,4.8036993E-01,8.1665250E-01
+Haptoglobin,Donor Hb,380,4.8138898E-01,8.1665250E-01
+Free Calcium,Weekday of donation,20415,4.8244603E-01,8.1665250E-01
+Sedimentation rate,Storage time,89,4.8261588E-01,8.1665250E-01
+Basophiles,Donor sex,1987,4.8263018E-01,8.1665250E-01
+Transferrin,Donor sex,58,4.8493322E-01,8.1665250E-01
+PaCO2,Time since donors previous donation,16496,4.8551895E-01,8.1665250E-01
+Mean corpuscular hemoglobin,Donor sex,37283,4.8553703E-01,8.1665250E-01
+pH,Donor parity,20446,4.8979335E-01,8.2129982E-01
+Iron,Donor parity,1417,4.9293933E-01,8.2278647E-01
+ALT,Time since donors previous donation,16997,4.9408786E-01,8.2278647E-01
+Mean corpuscular hemoglobin concentrati,Age of Donor,24180,4.9516786E-01,8.2278647E-01
+PaO2,Age of Donor,16594,4.9797969E-01,8.2474297E-01
+Haptoglobin,Age of Donor,383,5.0302740E-01,8.2474297E-01
+eGFR,Time since donors previous donation,6455,5.0431743E-01,8.2474297E-01
+Iron,Age of Donor,1417,5.0441146E-01,8.2474297E-01
+Osmolality,Donor Hb,6423,5.0460707E-01,8.2474297E-01
+Glutamyl transferase,Age of Donor,7789,5.0678264E-01,8.2474297E-01
+Fibrinogen,Storage time,13897,5.0684204E-01,8.2474297E-01
+Calcium,Time of donation,12770,5.1149593E-01,8.2930314E-01
+Sedimentation rate,Donors prior number of donations,89,5.1266012E-01,8.2930314E-01
+Lactate,Time of donation,18881,5.2222855E-01,8.4230411E-01
+NT-ProBNP,Age of Donor,826,5.2944713E-01,8.5145007E-01
+Glucose,Donor sex,44701,5.3203610E-01,8.5180988E-01
+Sodium,Donor sex,46534,5.3755873E-01,8.5180988E-01
+Sedimentation rate,Time of donation,89,5.3760720E-01,8.5180988E-01
+Troponin T,Time of donation,4385,5.3893995E-01,8.5180988E-01
+PaO2,Donor born outside of Sweden,16602,5.3917853E-01,8.5180988E-01
+Potassium,Weekday of donation,47075,5.3948344E-01,8.5180988E-01
+Carbon Dioxide,Time of donation,1085,5.4051209E-01,8.5180988E-01
+NT-ProBNP,Donor born outside of Sweden,826,5.4406658E-01,8.5496178E-01
+Potassium,Donor born outside of Sweden,47090,5.4584051E-01,8.5530564E-01
+eGFR,Age of Donor,6451,5.4746602E-01,8.5541566E-01
+Neutrophile count,Donor born outside of Sweden,11134,5.5184733E-01,8.5981878E-01
+Base Excess,Age of Donor,10231,5.5625625E-01,8.6056975E-01
+Mean corpuscular hemoglobin concentrati,Donor born outside of Sweden,24193,5.5703693E-01,8.6056975E-01
+Metamyelocyte count,Weekday of donation,384,5.5788212E-01,8.6056975E-01
+Metamyelocyte count,Donor born outside of Sweden,384,5.6245896E-01,8.6056975E-01
+Glucose,Donors prior number of donations,44724,5.6340749E-01,8.6056975E-01
+Monocyte count,Donor born outside of Sweden,1980,5.6434874E-01,8.6056975E-01
+Calcium,Time since donors previous donation,12820,5.6868837E-01,8.6056975E-01
+Platelet count,Time of donation,54675,5.6884505E-01,8.6056975E-01
+Leukocyte count,Donor parity,56935,5.6900825E-01,8.6056975E-01
+Troponin T,Weekday of donation,4399,5.7157504E-01,8.6056975E-01
+Glutamyl transferase,Donor sex,7789,5.7441136E-01,8.6056975E-01
+Albumin,Weekday of donation,23220,5.7499179E-01,8.6056975E-01
+Ferritin,Donors prior number of donations,2577,5.7513260E-01,8.6056975E-01
+Monocyte count,Donor Hb,1959,5.7568608E-01,8.6056975E-01
+ALP,Donor Hb,6672,5.7579940E-01,8.6056975E-01
+Base Excess,Donor born outside of Sweden,10235,5.7906318E-01,8.6067733E-01
+Troponin T,Donor parity,4400,5.7994880E-01,8.6067733E-01
+Methemoglobin,Age of Donor,15614,5.8140261E-01,8.6067733E-01
+Creatinine,Weekday of donation,50629,5.8268982E-01,8.6067733E-01
+Troponin T,Age of Donor,4400,5.8369572E-01,8.6067733E-01
+CRP,Donor Hb,47547,5.8861808E-01,8.6549884E-01
+Eosinophile count,Donors prior number of donations,1971,5.9503119E-01,8.6549884E-01
+Free Calcium,Donor Hb,20191,5.9587051E-01,8.6549884E-01
+eGFR,Donor parity,6451,5.9760934E-01,8.6549884E-01
+Sedimentation rate,Donor sex,89,5.9794962E-01,8.6549884E-01
+Conjugated bilirubin,Donor sex,4875,5.9988689E-01,8.6549884E-01
+CRP,Storage time,47884,6.0347266E-01,8.6549884E-01
+CRP,Donors prior number of donations,47982,6.0575987E-01,8.6549884E-01
+PaCO2,Donors prior number of donations,16496,6.0605469E-01,8.6549884E-01
+Myelocyte count,Age of Donor,361,6.0748284E-01,8.6549884E-01
+Glutamyl transferase,Donors prior number of donations,7792,6.0977961E-01,8.6549884E-01
+HbA1c,Storage time,192,6.1179337E-01,8.6549884E-01
+Reticulocyte count,Donor parity,517,6.1224327E-01,8.6549884E-01
+Free Calcium,Donor born outside of Sweden,20420,6.1480089E-01,8.6549884E-01
+Leukocyte count,Age of Donor,56934,6.1548430E-01,8.6549884E-01
+Conjugated bilirubin,Donor born outside of Sweden,4875,6.2076032E-01,8.6549884E-01
+Sodium,Donor Hb,46068,6.2158541E-01,8.6549884E-01
+AST,Time since donors previous donation,15408,6.2168525E-01,8.6549884E-01
+Myelocyte count,Time since donors previous donation,361,6.2253676E-01,8.6549884E-01
+PaCO2,Donor born outside of Sweden,16496,6.2376910E-01,8.6549884E-01
+Troponin I,Donor Hb,593,6.2447561E-01,8.6549884E-01
+Transferrin,Donors prior number of donations,58,6.2511677E-01,8.6549884E-01
+Fibrinogen,Donor sex,13917,6.2515946E-01,8.6549884E-01
+Troponin T,Donor sex,4400,6.2600064E-01,8.6549884E-01
+Lymphocyte count,Storage time,1970,6.2758086E-01,8.6549884E-01
+Chloride,Time of donation,21050,6.2788007E-01,8.6549884E-01
+ALP,Donor sex,6721,6.3096103E-01,8.6757141E-01
+Troponin I,Donor parity,593,6.3352253E-01,8.6892117E-01
+Creatinine,Time of donation,50450,6.3913788E-01,8.7237887E-01
+ALT,Donors prior number of donations,16997,6.3921579E-01,8.7237887E-01
+Triglycerides,Donor Hb,2548,6.4343769E-01,8.7251252E-01
+ALP,Time of donation,6691,6.4637054E-01,8.7251252E-01
+Troponin I,Time of donation,591,6.4660888E-01,8.7251252E-01
+Creatinine,Age of Donor,50619,6.4953033E-01,8.7251252E-01
+Lactate,Donors prior number of donations,18924,6.4979271E-01,8.7251252E-01
+Myelocyte count,Donor Hb,357,6.5054039E-01,8.7251252E-01
+Basophiles,Storage time,1983,6.5092800E-01,8.7251252E-01
+CO-Hb,Weekday of donation,14198,6.5200481E-01,8.7251252E-01
+Ferritin,Storage time,2572,6.6138160E-01,8.8291233E-01
+Methemoglobin,Donors prior number of donations,15622,6.6546779E-01,8.8621618E-01
+Glucose,Donor born outside of Sweden,44724,6.7068056E-01,8.9069537E-01
+Potassium,Time since donors previous donation,47090,6.7207014E-01,8.9069537E-01
+Triglycerides,Storage time,2561,6.7677905E-01,8.9082593E-01
+Creatinine,Donor parity,50619,6.7747298E-01,8.9082593E-01
+Eosinophile count,Donor sex,1971,6.7939728E-01,8.9082593E-01
+ALT,Age of Donor,16990,6.7971152E-01,8.9082593E-01
+Iron,Donor sex,1417,6.8026707E-01,8.9082593E-01
+Osmolality,Weekday of donation,6501,6.8603403E-01,8.9624398E-01
+Carbon Dioxide,Donor parity,1086,6.9022446E-01,8.9958164E-01
+Standard bicarbonate,Storage time,20318,6.9501065E-01,9.0167961E-01
+Base Excess,Time since donors previous donation,10235,7.0074340E-01,9.0167961E-01
+Sodium,Age of Donor,46533,7.0224363E-01,9.0167961E-01
+NT-ProBNP,Donors prior number of donations,826,7.0251667E-01,9.0167961E-01
+Carbon Dioxide,Time since donors previous donation,1087,7.0793470E-01,9.0167961E-01
+Troponin T,Donors prior number of donations,4401,7.1172854E-01,9.0167961E-01
+eGFR,Donor Hb,6235,7.1182165E-01,9.0167961E-01
+Fibrinogen,Time since donors previous donation,13926,7.1295866E-01,9.0167961E-01
+PaO2,Time of donation,16560,7.1380138E-01,9.0167961E-01
+Mean corpuscular volume,Weekday of donation,37204,7.1623494E-01,9.0167961E-01
+aPTT,Donors prior number of donations,22591,7.1652876E-01,9.0167961E-01
+Troponin T,Donor born outside of Sweden,4401,7.1694851E-01,9.0167961E-01
+Bilirubin,Age of Donor,22494,7.2001999E-01,9.0167961E-01
+Mean corpuscular hemoglobin concentrati,Weekday of donation,24187,7.2008726E-01,9.0167961E-01
+Mean corpuscular hemoglobin concentrati,Time of donation,24060,7.2212883E-01,9.0167961E-01
+Lactate,Donor Hb,18709,7.2371846E-01,9.0167961E-01
+Iron,Weekday of donation,1418,7.2795468E-01,9.0167961E-01
+Albumin,Age of Donor,23216,7.2863780E-01,9.0167961E-01
+Lactate dehydrogenase,Time of donation,6766,7.3163235E-01,9.0167961E-01
+Potassium,Donor Hb,46590,7.3170470E-01,9.0167961E-01
+Chloride,Weekday of donation,21097,7.3224788E-01,9.0167961E-01
+Eosinophile count,Storage time,1967,7.3342093E-01,9.0167961E-01
+NT-ProBNP,Donor parity,826,7.3358531E-01,9.0167961E-01
+Transferrin,Storage time,58,7.3523175E-01,9.0167961E-01
+Osmolality,Donor born outside of Sweden,6503,7.3756697E-01,9.0167961E-01
+Reticulocyte count,Storage time,517,7.4008735E-01,9.0167961E-01
+Transferrin,Donor Hb,57,7.4045377E-01,9.0167961E-01
+Transferrin,Time since donors previous donation,58,7.4345667E-01,9.0167961E-01
+Eosinophile count,Donor Hb,1950,7.4428280E-01,9.0167961E-01
+Troponin T,Time since donors previous donation,4401,7.4469315E-01,9.0167961E-01
+Iron,Storage time,1414,7.4494129E-01,9.0167961E-01
+Troponin I,Donors prior number of donations,593,7.4608867E-01,9.0167961E-01
+Monocyte count,Donor parity,1980,7.4756366E-01,9.0167961E-01
+Lactate dehydrogenase,Weekday of donation,6789,7.4757437E-01,9.0167961E-01
+Triglycerides,Age of Donor,2565,7.5198469E-01,9.0411099E-01
+Glucose,Time of donation,44597,7.5293638E-01,9.0411099E-01
+HbA1c,Donors prior number of donations,193,7.5454064E-01,9.0411099E-01
+Sodium,Donor parity,46534,7.5616556E-01,9.0411099E-01
+Erythrocyte count,Donor parity,36951,7.6476359E-01,9.1224249E-01
+Sodium,Weekday of donation,46541,7.6763714E-01,9.1224249E-01
+Chloride,Time since donors previous donation,21104,7.6996797E-01,9.1224249E-01
+Albumin,Donor Hb,23027,7.7129363E-01,9.1224249E-01
+Ferritin,Time of donation,2567,7.7160616E-01,9.1224249E-01
+Haptoglobin,Weekday of donation,383,7.7334775E-01,9.1224249E-01
+Free Calcium,Age of Donor,20409,7.7505277E-01,9.1224249E-01
+Haptoglobin,Donors prior number of donations,383,7.7869001E-01,9.1224249E-01
+INR,Donor parity,28417,7.7895133E-01,9.1224249E-01
+Metamyelocyte count,Donor sex,384,7.8098964E-01,9.1224249E-01
+Ferritin,Donor sex,2576,7.8287137E-01,9.1224249E-01
+Reticulocyte count,Time since donors previous donation,517,7.8378742E-01,9.1224249E-01
+Platelet count,Donor born outside of Sweden,54873,7.8816772E-01,9.1224249E-01
+NT-ProBNP,Weekday of donation,826,7.8819414E-01,9.1224249E-01
+NT-ProBNP,Time since donors previous donation,826,7.8957328E-01,9.1224249E-01
+CO-Hb,Time of donation,14159,7.9094621E-01,9.1224249E-01
+HbA1c,Donor born outside of Sweden,193,7.9432234E-01,9.1224249E-01
+eGFR,Weekday of donation,6455,7.9474478E-01,9.1224249E-01
+aPTT,Age of Donor,22575,7.9642245E-01,9.1224249E-01
+Glucose,Donor Hb,44248,7.9746666E-01,9.1224249E-01
+Fibrinogen,Weekday of donation,13921,7.9871835E-01,9.1224249E-01
+HbA1c,Time since donors previous donation,193,7.9945614E-01,9.1224249E-01
+Methemoglobin,Weekday of donation,15618,8.0235228E-01,9.1365166E-01
+CRP,Donor parity,47956,8.1034103E-01,9.1927402E-01
+Bilirubin,Donor born outside of Sweden,22504,8.1099718E-01,9.1927402E-01
+Free Calcium,Donor sex,20410,8.1230395E-01,9.1927402E-01
+Lactate dehydrogenase,Age of Donor,6792,8.1762734E-01,9.2339844E-01
+Sodium,Time since donors previous donation,46556,8.2118183E-01,9.2393743E-01
+Iron,Time since donors previous donation,1418,8.2146437E-01,9.2393743E-01
+CO-Hb,Donors prior number of donations,14200,8.3141011E-01,9.3066533E-01
+pH,Time since donors previous donation,20456,8.3212209E-01,9.3066533E-01
+ALT,Weekday of donation,16993,8.3263924E-01,9.3066533E-01
+Standard bicarbonate,Donors prior number of donations,20347,8.3421456E-01,9.3066533E-01
+aPTT,Donor born outside of Sweden,22591,8.3697947E-01,9.3185973E-01
+Osmolality,Time since donors previous donation,6503,8.3912774E-01,9.3236415E-01
+Bilirubin,Weekday of donation,22499,8.4170042E-01,9.3333716E-01
+Neutrophile count,Donor Hb,11006,8.4505866E-01,9.3381446E-01
+Free Calcium,Storage time,20391,8.4703337E-01,9.3381446E-01
+Lactate,Time since donors previous donation,18924,8.4722439E-01,9.3381446E-01
+Calcium,Storage time,12797,8.5443018E-01,9.3906541E-01
+Reticulocyte count,Donor sex,517,8.5540322E-01,9.3906541E-01
+Sodium,Donor born outside of Sweden,46556,8.5747280E-01,9.3946223E-01
+Fibrinogen,Donor born outside of Sweden,13926,8.5980404E-01,9.4014358E-01
+Calcium,Weekday of donation,12814,8.6625547E-01,9.4326296E-01
+ALP,Donors prior number of donations,6723,8.6799552E-01,9.4326296E-01
+Ferritin,Age of Donor,2576,8.6841329E-01,9.4326296E-01
+Methemoglobin,Storage time,15608,8.7124745E-01,9.4326296E-01
+Base Excess,Donor sex,10231,8.7261824E-01,9.4326296E-01
+Lactate dehydrogenase,Donor sex,6792,8.7294699E-01,9.4326296E-01
+Monocyte count,Time of donation,1977,8.7643999E-01,9.4391375E-01
+INR,Storage time,28387,8.7779402E-01,9.4391375E-01
+Troponin T,Donor Hb,4364,8.7869789E-01,9.4391375E-01
+Eosinophile count,Age of Donor,1971,8.8345809E-01,9.4717729E-01
+Monocyte count,Time since donors previous donation,1980,8.9724504E-01,9.5881293E-01
+PaCO2,Time of donation,16455,9.0237429E-01,9.5881293E-01
+Transferrin,Donor parity,58,9.0264075E-01,9.5881293E-01
+Calcium,Donor parity,12815,9.0373893E-01,9.5881293E-01
+ALT,Storage time,16962,9.0449908E-01,9.5881293E-01
+Neutrophile count,Donor sex,11129,9.0477075E-01,9.5881293E-01
+Neutrophile count,Time since donors previous donation,11134,9.0693786E-01,9.5926119E-01
+HbA1c,Donor sex,193,9.1172709E-01,9.6001167E-01
+Glutamyl transferase,Donor parity,7789,9.1239283E-01,9.6001167E-01
+Conjugated bilirubin,Donor parity,4875,9.1288382E-01,9.6001167E-01
+Transferrin,Weekday of donation,58,9.1758603E-01,9.6180426E-01
+Sodium,Storage time,46473,9.1808589E-01,9.6180426E-01
+Monocyte count,Storage time,1976,9.2124314E-01,9.6327705E-01
+Myelocyte count,Donor parity,361,9.2950051E-01,9.6825492E-01
+Creatinine,Donor Hb,50145,9.2952472E-01,9.6825492E-01
+NT-ProBNP,Donor sex,826,9.3179088E-01,9.6878069E-01
+Osmolality,Donors prior number of donations,6503,9.3455989E-01,9.6982630E-01
+Metamyelocyte count,Time since donors previous donation,384,9.3679408E-01,9.7031401E-01
+Free Calcium,Donor parity,20410,9.4353127E-01,9.7214988E-01
+Base Excess,Donors prior number of donations,10235,9.4354178E-01,9.7214988E-01
+Lymphocyte count,Age of Donor,1974,9.4386916E-01,9.7214988E-01
+Albumin,Time since donors previous donation,23228,9.5546568E-01,9.8160102E-01
+CRP,Donor sex,47956,9.5661481E-01,9.8160102E-01
+INR,Time since donors previous donation,28438,9.6170829E-01,9.8385174E-01
+Fibrinogen,Age of Donor,13917,9.6238589E-01,9.8385174E-01
+Glutamyl transferase,Weekday of donation,7789,9.6953925E-01,9.8841006E-01
+Iron,Donors prior number of donations,1418,9.7118249E-01,9.8841006E-01
+Basophiles,Donor Hb,1966,9.7223607E-01,9.8841006E-01
+Eosinophile count,Donor born outside of Sweden,1971,9.7654769E-01,9.9096168E-01
+Leukocyte count,Time since donors previous donation,56967,9.8276071E-01,9.9330845E-01
+Iron,Time of donation,1412,9.8347056E-01,9.9330845E-01
+Erythrocyte count,Age of Donor,36950,9.8674535E-01,9.9330845E-01
+Lactate,Weekday of donation,18919,9.8839722E-01,9.9330845E-01
+Albumin,Donor sex,23216,9.8973759E-01,9.9330845E-01
+aPTT,Donor parity,22575,9.9125720E-01,9.9330845E-01
+Triglycerides,Weekday of donation,2566,9.9150243E-01,9.9330845E-01
+Methemoglobin,Donor parity,15615,9.9498499E-01,9.9498499E-01

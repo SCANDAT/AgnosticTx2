@@ -1,0 +1,117 @@
+NOTE: Writing ODS PDF output to DISK destination "OUTPUT6", printer "PDF".                     
+                                                                                               
+NOTE: There were 55 observations read from the data set WORK.LABELCATEGORYHASH.                
+NOTE: There were 996276 observations read from the data set AGTX.FINALDATA24.                  
+      WHERE units=1;                                                                           
+NOTE: The data set WORK.TEMPDATA has 996276 observations and 48 variables.                     
+NOTE: DATA statement used (Total process time):                                                
+      real time           1.18 seconds                                                         
+      cpu time            1.18 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 996276 observations read from the data set WORK.TEMPDATA.                     
+NOTE: The data set WORK.TEMPDATA has 996276 observations and 48 variables.                     
+NOTE: PROCEDURE SORT used (Total process time):                                                
+      real time           0.65 seconds                                                         
+      cpu time            1.15 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: Writing HTML Body file: sashtml5.htm                                                     
+NOTE: There were 996276 observations read from the data set WORK.TEMPDATA.                     
+NOTE: PROCEDURE FREQ used (Total process time):                                                
+      real time           0.65 seconds                                                         
+      cpu time            0.48 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: PROCEDURE UNIVARIATE used (Total process time):                                          
+      real time           11.80 seconds                                                        
+      cpu time            6.34 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 981346 observations read from the data set WORK.TEMPDATA.                     
+      WHERE extremevalue=0;                                                                    
+NOTE: PROCEDURE FREQ used (Total process time):                                                
+      real time           0.28 seconds                                                         
+      cpu time            0.28 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: PROCEDURE UNIVARIATE used (Total process time):                                          
+      real time           11.67 seconds                                                        
+      cpu time            6.15 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 981346 observations read from the data set WORK.TEMPDATA.                     
+      WHERE extremevalue=0;                                                                    
+NOTE: The data set WORK.LABDISTRIBUTIONS has 55 observations and 7 variables.                  
+NOTE: PROCEDURE SUMMARY used (Total process time):                                             
+      real time           0.41 seconds                                                         
+      cpu time            0.40 seconds                                                         
+                                                                                               
+                                                                                               
+NOTE: Table WORK.LDPERS created, with 55 rows and 3 columns.                                   
+                                                                                               
+NOTE: PROCEDURE SQL used (Total process time):                                                 
+      real time           0.69 seconds                                                         
+      cpu time            1.09 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 55 observations read from the data set WORK.LABELCATEGORYHASH.                
+NOTE: There were 1089992 observations read from the data set AGTX.FINALDATA_REDS24.            
+      WHERE units=1;                                                                           
+NOTE: The data set WORK.TEMPDATAREDS has 1089992 observations and 48 variables.                
+NOTE: DATA statement used (Total process time):                                                
+      real time           1.28 seconds                                                         
+      cpu time            1.29 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 1089992 observations read from the data set WORK.TEMPDATAREDS.                
+NOTE: The data set WORK.TEMPDATAREDS has 1089992 observations and 48 variables.                
+NOTE: PROCEDURE SORT used (Total process time):                                                
+      real time           0.71 seconds                                                         
+      cpu time            1.59 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 1075048 observations read from the data set WORK.TEMPDATAREDS.                
+      WHERE extremevalue=0;                                                                    
+NOTE: The data set WORK.LABDISTRIBUTIONSREDS has 18 observations and 7 variables.              
+NOTE: PROCEDURE SUMMARY used (Total process time):                                             
+      real time           0.46 seconds                                                         
+      cpu time            0.46 seconds                                                         
+                                                                                               
+                                                                                               
+NOTE: Table WORK.LDPERSREDS created, with 19 rows and 3 columns.                               
+                                                                                               
+NOTE: PROCEDURE SQL used (Total process time):                                                 
+      real time           0.74 seconds                                                         
+      cpu time            1.15 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 55 observations read from the data set WORK.LDPERS.                           
+NOTE: There were 55 observations read from the data set WORK.LABDISTRIBUTIONS.                 
+NOTE: There were 19 observations read from the data set WORK.LDPERSREDS.                       
+NOTE: There were 18 observations read from the data set WORK.LABDISTRIBUTIONSREDS.             
+NOTE: The data set WORK.LD2 has 56 observations and 13 variables.                              
+NOTE: DATA statement used (Total process time):                                                
+      real time           0.00 seconds                                                         
+      cpu time            0.01 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 56 observations read from the data set WORK.LD2.                              
+NOTE: PROCEDURE PRINT used (Total process time):                                               
+      real time           0.07 seconds                                                         
+      cpu time            0.06 seconds                                                         
+                                                                                               
+                                                                                               
+NOTE: ODS PDF printed 357 pages to K:\SCANDAT\User\Gustaf\AgnosticTx2\SAS Outputs\Create       
+      skeleton for Supp Table 2 with numbers and lab delta distributions.pdf.                  

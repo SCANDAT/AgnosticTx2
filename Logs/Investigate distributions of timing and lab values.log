@@ -1,0 +1,58 @@
+NOTE: Writing ODS PDF output to DISK destination "OUTPUT1", printer "PDF".                     
+                                                                                               
+NOTE: There were 2629393 observations read from the data set AGTX.FINALDATA24.                 
+NOTE: The data set AGTX.FINALDATA24 has 2629393 observations and 46 variables.                 
+NOTE: PROCEDURE SORT used (Total process time):                                                
+      real time           1.26 seconds                                                         
+      cpu time            2.60 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: There were 650709 observations read from the data set AGTX.FINALDATA6.                   
+NOTE: The data set AGTX.FINALDATA6 has 650709 observations and 46 variables.                   
+NOTE: PROCEDURE SORT used (Total process time):                                                
+      real time           0.33 seconds                                                         
+      cpu time            0.65 seconds                                                         
+                                                                                               
+                                                                                               
+                                                                                               
+NOTE: Writing HTML Body file: sashtml4.htm                                                     
+NOTE: PROCEDURE SGPLOT used (Total process time):                                              
+      real time           7.02 seconds                                                         
+      cpu time            4.43 seconds                                                         
+                                                                                               
+NOTE: There were 996276 observations read from the data set AGTX.FINALDATA24.                  
+      WHERE units=1;                                                                           
+                                                                                               
+                                                                                               
+NOTE: PROCEDURE SGPLOT used (Total process time):                                              
+      real time           4.16 seconds                                                         
+      cpu time            2.29 seconds                                                         
+                                                                                               
+NOTE: There were 325321 observations read from the data set AGTX.FINALDATA6.                   
+      WHERE units=1;                                                                           
+                                                                                               
+                                                                                               
+NOTE: PROCEDURE SGPLOT used (Total process time):                                              
+      real time           5.87 seconds                                                         
+      cpu time            3.76 seconds                                                         
+                                                                                               
+NOTE: There were 996276 observations read from the data set AGTX.FINALDATA24.                  
+      WHERE units=1;                                                                           
+                                                                                               
+                                                                                               
+NOTE: PROCEDURE SGPLOT used (Total process time):                                              
+      real time           5.53 seconds                                                         
+      cpu time            3.12 seconds                                                         
+                                                                                               
+NOTE: There were 981346 observations read from the data set AGTX.FINALDATA24.                  
+      WHERE (units=1) and (extremevalue=0);                                                    
+                                                                                               
+                                                                                               
+NOTE: PROCEDURE SGPLOT used (Total process time):                                              
+      real time           5.37 seconds                                                         
+      cpu time            3.25 seconds                                                         
+                                                                                               
+NOTE: There were 981346 observations read from the data set AGTX.FINALDATA24.                  
+      WHERE (units=1) and (extremevalue=0);                                                    
+                                                                                               

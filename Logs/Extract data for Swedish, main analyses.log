@@ -1,0 +1,942 @@
+5240   dm 'log; clear';                                                                       
+5241   filename output1 "&localpath\SAS Outputs\Extract data for Swedish, main analyses.pdf"; 
+5242   ods pdf file=output1;                                                                  
+NOTE: Writing ODS PDF output to DISK destination "OUTPUT1", printer "PDF".                    
+5243   *3. Definitions;                                                                       
+5244   %let startdate='01jan2006'd;                                                           
+5245   %let stopdate='01jul2018'd;                                                            
+5246   *4. Execute code for 24 and 6 hour windows;                                            
+5247   %let hours=24;                                                                         
+5248   %let timewindow=%sysevalf(&hours*3600);                                                
+5249   %put Now assessing with &hours hours pre-post-transfusion windows;                     
+Now assessing with 24 hours pre-post-transfusion windows                                      
+5250   title "Now assessing with &hours hours pre-post-transfusion windows";                  
+5251   %inc "&localpath\Extract data for Swedish main analyses.sas";                          
+agnostic exists                                                                               
+NOTE: Writing HTML Body file: sashtml6.htm                                                    
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           3.04 seconds                                                        
+      cpu time            5.18 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.AGNOSTIC_2 created, with 10274266 rows and 10 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           17.61 seconds                                                       
+      cpu time            17.40 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1.63 seconds                                                        
+      cpu time            3.84 seconds                                                        
+                                                                                              
+                                                                                              
+donation_nodup exists                                                                         
+NOTE: Table WORK.AGNOSTIC_3 created, with 10274266 rows and 13 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           11.47 seconds                                                       
+      cpu time            17.64 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           2.52 seconds                                                        
+      cpu time            4.92 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.AGNOSTIC_4 created, with 10274266 rows and 17 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           9.20 seconds                                                        
+      cpu time            14.79 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           3.11 seconds                                                        
+      cpu time            5.57 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.BIRTHS_MFR created, with 2169094 rows and 2 columns.                         
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           4.44 seconds                                                        
+      cpu time            3.59 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.BIRTHS_MULTIGENERATION created, with 2366901 rows and 2 columns.             
+                                                                                              
+NOTE: PROC SQL statements are executed immediately; The RUN statement has no effect.          
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           7.22 seconds                                                        
+      cpu time            9.78 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.BIRTHS created, with 3250075 rows and 2 columns.                             
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1.23 seconds                                                        
+      cpu time            1.93 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Invalid (or missing) arguments to the DATEPART function have caused the function to     
+      return a missing value.                                                                 
+NOTE: Table WORK.AGNOSTIC_5 created, with 10274001 rows and 18 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           10.23 seconds                                                       
+      cpu time            17.59 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: Table WORK.AGNOSTIC_6 created, with 10274001 rows and 20 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           2:10.23                                                             
+      cpu time            3:31.09                                                             
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Character values have been converted to numeric values at the places given by:          
+      (Line):(Column).                                                                        
+      5421:22                                                                                 
+NOTE: Missing values were generated as a result of performing an operation on missing values. 
+      Each place is given by: (Number of times) at (Line):(Column).                           
+      84667 at 5412:22    763488 at 5413:28   84667 at 5414:12    93969 at 5414:27            
+      84667 at 5418:17    84667 at 5418:25    84667 at 5420:15    84667 at 5420:30            
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_6.                
+NOTE: The data set WORK.AGNOSTIC_7 has 10274001 observations and 27 variables.                
+NOTE: DATA statement used (Total process time):                                               
+      real time           4.09 seconds                                                        
+      cpu time            4.09 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_7.                
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           3.56 seconds                                                        
+      cpu time            3.46 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_7.                
+NOTE: The data set WORK.AGNOSTIC_8 has 10274001 observations and 27 variables.                
+NOTE: DATA statement used (Total process time):                                               
+      real time           2.74 seconds                                                        
+      cpu time            2.64 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_8.                
+NOTE: The data set WORK.PREDICTORVARIABLES has 10274001 observations and 13 variables.        
+NOTE: DATA statement used (Total process time):                                               
+      real time           1.97 seconds                                                        
+      cpu time            1.96 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10180033 observations read from the data set WORK.PREDICTORVARIABLES.        
+      WHERE donorsex in (1, 2);                                                               
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           4.34 seconds                                                        
+      cpu time            4.32 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE UNIVARIATE used (Total process time):                                         
+      real time           26.02 seconds                                                       
+      cpu time            26.00 seconds                                                       
+                                                                                              
+                                                                                              
+multilab exists                                                                               
+cslab exists                                                                                  
+                                                                                              
+NOTE: There were 124403571 observations read from the data set WORK.MULTILAB.                 
+NOTE: There were 1171813 observations read from the data set WORK.CSLAB.                      
+NOTE: The data set WORK.CLEANMULTILAB has 112219355 observations and 4 variables.             
+NOTE: DATA statement used (Total process time):                                               
+      real time           51.82 seconds                                                       
+      cpu time            51.81 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 112219355 observations read from the data set WORK.CLEANMULTILAB.            
+NOTE: 185325 observations with duplicate key values were deleted.                             
+NOTE: The data set WORK.CLEANMULTILAB has 112034030 observations and 4 variables.             
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           16.73 seconds                                                       
+      cpu time            52.15 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 112034030 observations read from the data set WORK.CLEANMULTILAB.            
+NOTE: The data set WORK.CLEANMULTILAB has 112034030 observations and 4 variables.             
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           14.35 seconds                                                       
+      cpu time            48.15 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB1 created, with 18107607 rows and 6 columns.                  
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1:14.42                                                             
+      cpu time            1:46.59                                                             
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 18107607 observations read from the data set WORK.TRANSFUSION_LAB1.          
+NOTE: The data set WORK.TRANSFUSION_LAB1B has 10916121 observations and 6 variables.          
+NOTE: DATA statement used (Total process time):                                               
+      real time           3.13 seconds                                                        
+      cpu time            3.14 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB1C created, with 12361744 rows and 8 columns.                 
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           36.65 seconds                                                       
+      cpu time            44.31 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 12361744 observations read from the data set WORK.TRANSFUSION_LAB1C.         
+NOTE: The data set WORK.TRANSFUSION_LAB1D has 5602405 observations and 8 variables.           
+NOTE: DATA statement used (Total process time):                                               
+      real time           2.00 seconds                                                        
+      cpu time            2.00 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB2 created, with 2754962 rows and 7 columns.                   
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1.66 seconds                                                        
+      cpu time            3.23 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Input data set is already sorted, no sorting done.                                      
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.00 seconds                                                        
+      cpu time            0.00 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2754962 observations read from the data set WORK.TRANSFUSION_LAB2.           
+NOTE: The data set WORK.TRANSFUSION_LAB3 has 2752432 observations and 7 variables.            
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.49 seconds                                                        
+      cpu time            0.50 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2752432 observations read from the data set WORK.TRANSFUSION_LAB3.           
+NOTE: The data set WORK.TRANSFUSION_LAB3 has 2752432 observations and 7 variables.            
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.37 seconds                                                        
+      cpu time            1.21 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2752432 observations read from the data set WORK.TRANSFUSION_LAB3.           
+NOTE: The data set WORK.TRANSFUSION_LAB4 has 2751335 observations and 7 variables.            
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.51 seconds                                                        
+      cpu time            0.50 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.ERRORS3 created, with 18 rows and 6 columns.                                 
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           2.11 seconds                                                        
+      cpu time            2.10 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB5 created, with 2751335 rows and 8 columns.                   
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1.34 seconds                                                        
+      cpu time            3.11 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2751335 observations read from the data set WORK.TRANSFUSION_LAB5.           
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.15 seconds                                                        
+      cpu time            0.14 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2751285 observations read from the data set WORK.TRANSFUSION_LAB5.           
+      WHERE not bad;                                                                          
+NOTE: The data set WORK.TRANSFUSION_LAB6 has 2751285 observations and 7 variables.            
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.54 seconds                                                        
+      cpu time            0.54 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB7 created, with 2775355 rows and 8 columns.                   
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           46.17 seconds                                                       
+      cpu time            47.00 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2775355 observations read from the data set WORK.TRANSFUSION_LAB7.           
+NOTE: The data set WORK.TRANSFUSION_LAB8 has 2751285 observations and 8 variables.            
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.47 seconds                                                        
+      cpu time            0.46 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB9 created, with 2775180 rows and 9 columns.                   
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           45.73 seconds                                                       
+      cpu time            46.59 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2775180 observations read from the data set WORK.TRANSFUSION_LAB9.           
+NOTE: The data set WORK.TRANSFUSION_LAB10 has 2751285 observations and 10 variables.          
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.57 seconds                                                        
+      cpu time            0.57 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_8.                
+NOTE: The data set WORK.AGNOSTIC_9 has 10274001 observations and 28 variables.                
+NOTE: DATA statement used (Total process time):                                               
+      real time           2.66 seconds                                                        
+      cpu time            2.65 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PRELIMINARYDATA created, with 2751285 rows and 53 columns.                   
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           14.00 seconds                                                       
+      cpu time            19.15 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Input data set is already sorted, no sorting done.                                      
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.00 seconds                                                        
+      cpu time            0.00 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PD2 created, with 156323861 rows and 55 columns.                             
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           2:13.50                                                             
+      cpu time            4:53.04                                                             
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 156323861 observations read from the data set WORK.PD2.                      
+NOTE: The data set WORK.PD2B has 2751285 observations and 55 variables.                       
+NOTE: DATA statement used (Total process time):                                               
+      real time           37.63 seconds                                                       
+      cpu time            37.64 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PD3 created, with 34060053 rows and 57 columns.                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           29.31 seconds                                                       
+      cpu time            1:03.09                                                             
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 34060053 observations read from the data set WORK.PD3.                       
+NOTE: The data set WORK.PD3B has 2751285 observations and 57 variables.                       
+NOTE: DATA statement used (Total process time):                                               
+      real time           9.05 seconds                                                        
+      cpu time            9.06 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PD4 created, with 2751285 rows and 58 columns.                               
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           9.03 seconds                                                        
+      cpu time            14.92 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2751285 observations read from the data set WORK.PD4.                        
+NOTE: The data set WORK.PERC has 59 observations and 3 variables.                             
+NOTE: PROCEDURE SUMMARY used (Total process time):                                            
+      real time           0.77 seconds                                                        
+      cpu time            0.76 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Character values have been converted to numeric values at the places given by:          
+      (Line):(Column).                                                                        
+      6061:15                                                                                 
+NOTE: There were 2751285 observations read from the data set WORK.PD4.                        
+NOTE: There were 59 observations read from the data set WORK.PERC.                            
+NOTE: The data set AGTX.FINALDATA24 has 2629393 observations and 46 variables.                
+NOTE: DATA statement used (Total process time):                                               
+      real time           1.88 seconds                                                        
+      cpu time            1.87 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2629393 observations read from the data set AGTX.FINALDATA24.                
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.89 seconds                                                        
+      cpu time            0.89 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 996276 observations read from the data set AGTX.FINALDATA24.                 
+      WHERE units=1;                                                                          
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.71 seconds                                                        
+      cpu time            0.70 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 996276 observations read from the data set AGTX.FINALDATA24.                 
+      WHERE units=1;                                                                          
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.44 seconds                                                        
+      cpu time            0.43 seconds                                                        
+                                                                                              
+                                                                                              
+6078   proc sort data=agtx.finaldata24;                                                       
+6079   by idnr firsttransdt label ;                                                           
+6080   run;                                                                                   
+                                                                                              
+NOTE: There were 2629393 observations read from the data set AGTX.FINALDATA24.                
+NOTE: The data set AGTX.FINALDATA24 has 2629393 observations and 46 variables.                
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           1.49 seconds                                                        
+      cpu time            2.75 seconds                                                        
+                                                                                              
+                                                                                              
+6081   data templong24(keep=label idnr time_before time_after recipientage recipientsex units 
+6081 ! predictor predictorvalue deltavalue bloodgroup donorid meandonorhb encounter);         
+6082   set agtx.finaldata24;                                                                  
+6083   by idnr firsttransdt label ;                                                           
+6084   retain encounter;                                                                      
+6085   where units=1 and extremevalue=0;                                                      
+6086   if first.idnr then encounter=0;                                                        
+6087   encounter+(first.firsttransdt);                                                        
+6088   array pred[10] meandonorhb meandonorsex meandonorage numdoncat meanstoragetime         
+6088 ! timesincecat meanweekday meandonationtime donorparity foreigndonor;                    
+6089   do _i=1 to 10;                                                                         
+6090       if pred[_i] ne . then do;                                                          
+6091           predictor=vname(pred[_i]);                                                     
+6092           predictorvalue=pred[_i];                                                       
+6093           output;                                                                        
+6094           end;                                                                           
+6095       end;                                                                               
+6096   run;                                                                                   
+                                                                                              
+NOTE: There were 981346 observations read from the data set AGTX.FINALDATA24.                 
+      WHERE (units=1) and (extremevalue=0);                                                   
+NOTE: The data set WORK.TEMPLONG24 has 9802747 observations and 14 variables.                 
+NOTE: DATA statement used (Total process time):                                               
+      real time           3.30 seconds                                                        
+      cpu time            3.29 seconds                                                        
+                                                                                              
+                                                                                              
+6097   /*                                                                                     
+6098   proc freq data=templong24;                                                             
+6099   tables predictorvalue; where predictor='idbloodgroupcat';                              
+6100   run;                                                                                   
+6101   proc freq data=templong24;                                                             
+6102   tables predictorvalue; where predictor='foreigndonor';                                 
+6103   run;                                                                                   
+6104   */                                                                                     
+6105   data agtx.finaldata_long24;                                                            
+6106   set templong24;                                                                        
+6107   *Cleanup for analysis purposes;                                                        
+6108   if predictor='meandonorhb' and (predictorvalue lt 100 or predictorvalue gt 190) then   
+6108 ! delete;                                                                                
+6109   if predictor='meandonorsex' and (predictorvalue lt 1 or predictorvalue gt 2) then      
+6109 ! delete;                                                                                
+6110   if predictor='meandonorage' and (predictorvalue lt 18 or predictorvalue gt 80) then    
+6110 ! delete;                                                                                
+6111   if predictor='meanstoragetime' and (predictorvalue lt 0 or predictorvalue gt 42) then  
+6111 ! delete;                                                                                
+6112   if predictor='meanweekday' and predictorvalue=1 then delete;                           
+6113   if predictor='meandonationtime' and (predictorvalue lt 6 or predictorvalue gt 20) then 
+6113 ! delete;                                                                                
+6114   if predictor='donorparity' and (predictorvalue =9) then delete;                        
+6115   if predictor='meanweekday' then predictorvalue=predictorvalue-1;                       
+6116   if label="SO2" then delete;                                                            
+6117   run;                                                                                   
+                                                                                              
+NOTE: There were 9802747 observations read from the data set WORK.TEMPLONG24.                 
+NOTE: The data set AGTX.FINALDATA_LONG24 has 9796603 observations and 14 variables.           
+NOTE: DATA statement used (Total process time):                                               
+      real time           3.34 seconds                                                        
+      cpu time            3.32 seconds                                                        
+                                                                                              
+                                                                                              
+6118   /*                                                                                     
+6119   proc freq data=agtx.finaldata_long24;                                                  
+6120   tables label*predictor /norow nocol nopercent;                                         
+6121   run;                                                                                   
+6122   */                                                                                     
+6123   %let hours=6;                                                                          
+6124   %let timewindow=%sysevalf(&hours*3600);                                                
+6125   %put Now assessing with &hours hours pre-post-transfusion windows;                     
+Now assessing with 6 hours pre-post-transfusion windows                                       
+6126   title "Now assessing with &hours hours pre-post-transfusion windows";                  
+6127   %inc "&localpath\Extract data for Swedish main analyses.sas";                          
+agnostic exists                                                                               
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           2.22 seconds                                                        
+      cpu time            4.42 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.AGNOSTIC_2 created, with 10274266 rows and 10 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           17.02 seconds                                                       
+      cpu time            17.01 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1.74 seconds                                                        
+      cpu time            3.81 seconds                                                        
+                                                                                              
+                                                                                              
+donation_nodup exists                                                                         
+NOTE: Table WORK.AGNOSTIC_3 created, with 10274266 rows and 13 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           10.57 seconds                                                       
+      cpu time            17.45 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           2.41 seconds                                                        
+      cpu time            4.57 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.AGNOSTIC_4 created, with 10274266 rows and 17 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           9.12 seconds                                                        
+      cpu time            14.65 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           3.07 seconds                                                        
+      cpu time            5.46 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.BIRTHS_MFR created, with 2169094 rows and 2 columns.                         
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1.83 seconds                                                        
+      cpu time            3.43 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.BIRTHS_MULTIGENERATION created, with 2366901 rows and 2 columns.             
+                                                                                              
+NOTE: PROC SQL statements are executed immediately; The RUN statement has no effect.          
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           5.66 seconds                                                        
+      cpu time            8.84 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.BIRTHS created, with 3250075 rows and 2 columns.                             
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1.22 seconds                                                        
+      cpu time            2.00 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Invalid (or missing) arguments to the DATEPART function have caused the function to     
+      return a missing value.                                                                 
+NOTE: Table WORK.AGNOSTIC_5 created, with 10274001 rows and 18 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           9.97 seconds                                                        
+      cpu time            16.93 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: Table WORK.AGNOSTIC_6 created, with 10274001 rows and 20 columns.                       
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           2:00.49                                                             
+      cpu time            3:25.51                                                             
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Character values have been converted to numeric values at the places given by:          
+      (Line):(Column).                                                                        
+      6297:22                                                                                 
+NOTE: Missing values were generated as a result of performing an operation on missing values. 
+      Each place is given by: (Number of times) at (Line):(Column).                           
+      84667 at 6288:22    763488 at 6289:28   84667 at 6290:12    93969 at 6290:27            
+      84667 at 6294:17    84667 at 6294:25    84667 at 6296:15    84667 at 6296:30            
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_6.                
+NOTE: The data set WORK.AGNOSTIC_7 has 10274001 observations and 27 variables.                
+NOTE: DATA statement used (Total process time):                                               
+      real time           4.22 seconds                                                        
+      cpu time            4.23 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_7.                
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           3.50 seconds                                                        
+      cpu time            3.42 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_7.                
+NOTE: The data set WORK.AGNOSTIC_8 has 10274001 observations and 27 variables.                
+NOTE: DATA statement used (Total process time):                                               
+      real time           2.87 seconds                                                        
+      cpu time            2.87 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_8.                
+NOTE: The data set WORK.PREDICTORVARIABLES has 10274001 observations and 13 variables.        
+NOTE: DATA statement used (Total process time):                                               
+      real time           2.04 seconds                                                        
+      cpu time            2.03 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10180033 observations read from the data set WORK.PREDICTORVARIABLES.        
+      WHERE donorsex in (1, 2);                                                               
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           4.48 seconds                                                        
+      cpu time            4.47 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: PROCEDURE UNIVARIATE used (Total process time):                                         
+      real time           26.56 seconds                                                       
+      cpu time            26.56 seconds                                                       
+                                                                                              
+                                                                                              
+multilab exists                                                                               
+cslab exists                                                                                  
+                                                                                              
+NOTE: There were 124403571 observations read from the data set WORK.MULTILAB.                 
+NOTE: There were 1171813 observations read from the data set WORK.CSLAB.                      
+NOTE: The data set WORK.CLEANMULTILAB has 112219355 observations and 4 variables.             
+NOTE: DATA statement used (Total process time):                                               
+      real time           49.64 seconds                                                       
+      cpu time            49.62 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 112219355 observations read from the data set WORK.CLEANMULTILAB.            
+NOTE: 185325 observations with duplicate key values were deleted.                             
+NOTE: The data set WORK.CLEANMULTILAB has 112034030 observations and 4 variables.             
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           16.55 seconds                                                       
+      cpu time            52.67 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 112034030 observations read from the data set WORK.CLEANMULTILAB.            
+NOTE: The data set WORK.CLEANMULTILAB has 112034030 observations and 4 variables.             
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           13.53 seconds                                                       
+      cpu time            45.74 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB1 created, with 7602309 rows and 6 columns.                   
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           1:13.73                                                             
+      cpu time            1:39.98                                                             
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 7602309 observations read from the data set WORK.TRANSFUSION_LAB1.           
+NOTE: The data set WORK.TRANSFUSION_LAB1B has 5540050 observations and 6 variables.           
+NOTE: DATA statement used (Total process time):                                               
+      real time           1.41 seconds                                                        
+      cpu time            1.42 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB1C created, with 2902966 rows and 8 columns.                  
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           22.75 seconds                                                       
+      cpu time            25.23 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 2902966 observations read from the data set WORK.TRANSFUSION_LAB1C.          
+NOTE: The data set WORK.TRANSFUSION_LAB1D has 1404803 observations and 8 variables.           
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.49 seconds                                                        
+      cpu time            0.48 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB2 created, with 698979 rows and 7 columns.                    
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           0.44 seconds                                                        
+      cpu time            0.82 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Input data set is already sorted, no sorting done.                                      
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.00 seconds                                                        
+      cpu time            0.00 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 698979 observations read from the data set WORK.TRANSFUSION_LAB2.            
+NOTE: The data set WORK.TRANSFUSION_LAB3 has 697306 observations and 7 variables.             
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.17 seconds                                                        
+      cpu time            0.17 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 697306 observations read from the data set WORK.TRANSFUSION_LAB3.            
+NOTE: The data set WORK.TRANSFUSION_LAB3 has 697306 observations and 7 variables.             
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.11 seconds                                                        
+      cpu time            0.31 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 697306 observations read from the data set WORK.TRANSFUSION_LAB3.            
+NOTE: The data set WORK.TRANSFUSION_LAB4 has 696660 observations and 7 variables.             
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.17 seconds                                                        
+      cpu time            0.17 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.ERRORS3 created, with 18 rows and 6 columns.                                 
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           0.44 seconds                                                        
+      cpu time            0.45 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB5 created, with 696660 rows and 8 columns.                    
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           0.38 seconds                                                        
+      cpu time            0.79 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 696660 observations read from the data set WORK.TRANSFUSION_LAB5.            
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.05 seconds                                                        
+      cpu time            0.04 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 696610 observations read from the data set WORK.TRANSFUSION_LAB5.            
+      WHERE not bad;                                                                          
+NOTE: The data set WORK.TRANSFUSION_LAB6 has 696610 observations and 7 variables.             
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.17 seconds                                                        
+      cpu time            0.15 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB7 created, with 705298 rows and 8 columns.                    
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           27.53 seconds                                                       
+      cpu time            27.71 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 705298 observations read from the data set WORK.TRANSFUSION_LAB7.            
+NOTE: The data set WORK.TRANSFUSION_LAB8 has 696610 observations and 8 variables.             
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.15 seconds                                                        
+      cpu time            0.15 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.TRANSFUSION_LAB9 created, with 704846 rows and 9 columns.                    
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           27.35 seconds                                                       
+      cpu time            27.60 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 704846 observations read from the data set WORK.TRANSFUSION_LAB9.            
+NOTE: The data set WORK.TRANSFUSION_LAB10 has 696610 observations and 10 variables.           
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.17 seconds                                                        
+      cpu time            0.17 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 10274001 observations read from the data set WORK.AGNOSTIC_8.                
+NOTE: The data set WORK.AGNOSTIC_9 has 10274001 observations and 28 variables.                
+NOTE: DATA statement used (Total process time):                                               
+      real time           3.02 seconds                                                        
+      cpu time            3.03 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PRELIMINARYDATA created, with 696610 rows and 53 columns.                    
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           5.69 seconds                                                        
+      cpu time            6.98 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Input data set is already sorted, no sorting done.                                      
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.00 seconds                                                        
+      cpu time            0.00 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PD2 created, with 41726081 rows and 55 columns.                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           42.09 seconds                                                       
+      cpu time            1:23.57                                                             
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 41726081 observations read from the data set WORK.PD2.                       
+NOTE: The data set WORK.PD2B has 696610 observations and 55 variables.                        
+NOTE: DATA statement used (Total process time):                                               
+      real time           10.12 seconds                                                       
+      cpu time            10.11 seconds                                                       
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PD3 created, with 15050091 rows and 57 columns.                              
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           15.62 seconds                                                       
+      cpu time            30.75 seconds                                                       
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 15050091 observations read from the data set WORK.PD3.                       
+NOTE: The data set WORK.PD3B has 696610 observations and 57 variables.                        
+NOTE: DATA statement used (Total process time):                                               
+      real time           4.17 seconds                                                        
+      cpu time            4.17 seconds                                                        
+                                                                                              
+                                                                                              
+NOTE: Table WORK.PD4 created, with 696610 rows and 58 columns.                                
+                                                                                              
+NOTE: PROCEDURE SQL used (Total process time):                                                
+      real time           5.42 seconds                                                        
+      cpu time            9.14 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 696610 observations read from the data set WORK.PD4.                         
+NOTE: The data set WORK.PERC has 59 observations and 3 variables.                             
+NOTE: PROCEDURE SUMMARY used (Total process time):                                            
+      real time           0.21 seconds                                                        
+      cpu time            0.21 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: Character values have been converted to numeric values at the places given by:          
+      (Line):(Column).                                                                        
+      6937:15                                                                                 
+NOTE: There were 696610 observations read from the data set WORK.PD4.                         
+NOTE: There were 59 observations read from the data set WORK.PERC.                            
+NOTE: The data set AGTX.FINALDATA6 has 650709 observations and 46 variables.                  
+NOTE: DATA statement used (Total process time):                                               
+      real time           0.46 seconds                                                        
+      cpu time            0.46 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 650709 observations read from the data set AGTX.FINALDATA6.                  
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.24 seconds                                                        
+      cpu time            0.23 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 325321 observations read from the data set AGTX.FINALDATA6.                  
+      WHERE units=1;                                                                          
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.19 seconds                                                        
+      cpu time            0.18 seconds                                                        
+                                                                                              
+                                                                                              
+                                                                                              
+NOTE: There were 996276 observations read from the data set AGTX.FINALDATA24.                 
+      WHERE units=1;                                                                          
+NOTE: PROCEDURE FREQ used (Total process time):                                               
+      real time           0.48 seconds                                                        
+      cpu time            0.48 seconds                                                        
+                                                                                              
+                                                                                              
+6954   proc sort data=agtx.finaldata6;                                                        
+6955   by idnr firsttransdt label ;                                                           
+6956   run;                                                                                   
+                                                                                              
+NOTE: There were 650709 observations read from the data set AGTX.FINALDATA6.                  
+NOTE: The data set AGTX.FINALDATA6 has 650709 observations and 46 variables.                  
+NOTE: PROCEDURE SORT used (Total process time):                                               
+      real time           0.38 seconds                                                        
+      cpu time            0.73 seconds                                                        
+                                                                                              
+                                                                                              
+6957   data templong6(keep=label idnr time_before time_after recipientage recipientsex units  
+6957 ! predictor predictorvalue deltavalue bloodgroup donorid meandonorhb encounter);         
+6958   set agtx.finaldata6;                                                                   
+6959   where units=1 and extremevalue=0;                                                      
+6960   by idnr firsttransdt label ;                                                           
+6961   retain encounter;                                                                      
+6962   if first.idnr then encounter=0;                                                        
+6963   array pred[10] meandonorhb meandonorsex meandonorage numdoncat meanstoragetime         
+6963 ! timesincecat meanweekday meandonationtime donorparity foreigndonor;                    
+6964   do _i=1 to 10;                                                                         
+6965       if pred[_i] ne . then do;                                                          
+6966           predictor=vname(pred[_i]);                                                     
+6967           predictorvalue=pred[_i];                                                       
+6968           output;                                                                        
+6969           end;                                                                           
+6970       end;                                                                               
+6971   run;                                                                                   
+                                                                                              
+NOTE: There were 320769 observations read from the data set AGTX.FINALDATA6.                  
+      WHERE (units=1) and (extremevalue=0);                                                   
+NOTE: The data set WORK.TEMPLONG6 has 3203964 observations and 14 variables.                  
+NOTE: DATA statement used (Total process time):                                               
+      real time           1.10 seconds                                                        
+      cpu time            1.09 seconds                                                        
+                                                                                              
+                                                                                              
+6972   data agtx.finaldata_long6;                                                             
+6973   set templong6;                                                                         
+6974   *Cleanup for analysis purposes;                                                        
+6975   if predictor='meandonorhb' and (predictorvalue lt 100 or predictorvalue gt 190) then   
+6975 ! delete;                                                                                
+6976   if predictor='meandonorsex' and (predictorvalue lt 1 or predictorvalue gt 2) then      
+6976 ! delete;                                                                                
+6977   if predictor='meandonorage' and (predictorvalue lt 18 or predictorvalue gt 80) then    
+6977 ! delete;                                                                                
+6978   if predictor='meanstoragetime' and (predictorvalue lt 0 or predictorvalue gt 42) then  
+6978 ! delete;                                                                                
+6979   if predictor='meanweekday' and predictorvalue=1 then delete;                           
+6980   if predictor='meandonationtime' and (predictorvalue lt 6 or predictorvalue gt 20) then 
+6980 ! delete;                                                                                
+6981   if predictor='meanweekday' then predictorvalue=predictorvalue-1;                       
+6982   if label="SO2" then delete;                                                            
+6983   run;                                                                                   
+                                                                                              
+NOTE: There were 3203964 observations read from the data set WORK.TEMPLONG6.                  
+NOTE: The data set AGTX.FINALDATA_LONG6 has 3202482 observations and 14 variables.            
+NOTE: DATA statement used (Total process time):                                               
+      real time           1.28 seconds                                                        
+      cpu time            1.26 seconds                                                        
+                                                                                              
+                                                                                              
